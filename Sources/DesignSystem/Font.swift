@@ -10,9 +10,9 @@ import SwiftUI
 // MARK: Шрифты
 extension Font {
     // Новые шрифты
-    struct Branding {
+    public struct Branding {
         // Header
-        struct Header {
+        public struct Header {
             /// Header 1
             static let h1 = Font.system(size: 38, weight: .light)
             /// Header 2
@@ -24,7 +24,7 @@ extension Font {
         }
         
         // Body
-        struct Body {
+        public struct Body {
             /// Body Text Medium 16
             static let b1 = Font.system(size: 16, weight: .medium)
             /// Body Text Regular 16
@@ -36,7 +36,7 @@ extension Font {
         }
         
         // Comment
-        struct Comment {
+        public struct Comment {
             /// Comment Medium
             static let c1 = Font.system(size: 12, weight: .medium)
             /// Comment regular
@@ -44,19 +44,19 @@ extension Font {
         }
         
         // Link
-        struct Link {
+        public struct Link {
             /// Link/Text 14
             static let text14 = Font.system(size: 14, weight: .medium)
         }
         
         // NavigationBar
-        struct NavigationBar {
+        public struct NavigationBar {
             /// Navigation bar/Arrow
             static let arrow = Font.system(size: 16, weight: .medium)
         }
         
         // Button
-        struct Button {
+        public struct Button {
             /// Button
             static let button = Font.system(size: 16, weight: .medium)
             /// Small button
@@ -64,7 +64,7 @@ extension Font {
         }
         
         // Native
-        struct Native {
+        public struct Native {
             /// Navigation text
             static let navigationText = Font.system(size: 17, weight: .regular)
             /// Native/Title
@@ -72,7 +72,7 @@ extension Font {
         }
         
         // Amount
-        struct Amount {
+        public struct Amount {
             /// Big amount
             static let bigAmount = Font.system(size: 24, weight: .medium)
             /// Amount bold
@@ -80,7 +80,7 @@ extension Font {
         }
         
         // Timer
-        struct Timer {
+        public struct Timer {
             /// Timer/bold
             static let bold = Font.system(size: 24, weight: .bold)
         }
