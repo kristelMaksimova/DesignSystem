@@ -10,7 +10,7 @@ import SwiftUI
 // MARK: Шрифты
 extension Font {
     // Новые шрифты
-    struct REBranding {
+    struct Branding {
         // Header
         struct Header {
             /// Header 1
